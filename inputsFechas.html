@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form>
+		<input type="date" name="" id="calendario">
+		<input type="time" name="">
+		<input type="month" name="">
+		<input type="week" name="">
+
+	</form>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>	
+<script type="text/javascript">
+	
+const calendario = $('#calendario');
+
+	$(calendario).on({
+		change:function(){
+			console.log(calendario.val());
+
+
+		}
+	});
+
+
+
+
+</script>
+</body>
+</html>
