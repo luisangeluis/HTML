@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form>
+		<label>
+			<input type="checkbox" name="ejemp-checkbox" value="html">HTML
+		</label>
+		<label>
+			<input type="checkbox" name="ejemp-checkbox" value="css" id="css" checked>CSS
+		</label>
+		<label>
+			<input type="checkbox" name="ejemp-checkbox" value="javascript">JavaScript
+		</label>
+		<label>
+			<input type="checkbox" name="ejemp-checkbox" value="otro">Otro
+		</label>
+	</form>
+<script type="text/javascript">
+
+	let form = document.querySelector('form');
+	
+	console.log(form.querySelector('#css').value);
+</script>
+</body>
+</html>
