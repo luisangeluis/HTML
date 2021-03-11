@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos de formularios</title>
+</head>
+<body>
+    <form action="">
+        <input type="text" placeholder="Introduce tu nombre" required minlength="4" maxlength="8">
+        <input type="text" placeholder="Introduce tu nombre" value="hola" readonly> 
+ 
+        <input type="number" min="5" max="10" required autofocus> 
+        <select name="numbers" id="" >
+            <option value="one" >one</option>
+            <option value="two" selected>two</option>
+
+        </select>
+
+        <button type="button">hola</button>
+        <input type="submit" value="enviar"> 
+        
+    </form>
+
+    <script>
+
+        const button = document.querySelector('button');
+
+        button.addEventListener('click',()=>{
+            alert('hola');
+        });
+    </script>
+</body>
+</html>
